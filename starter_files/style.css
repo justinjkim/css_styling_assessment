@@ -29,9 +29,9 @@ body > div {
 }
 
 
-/***********
+/********
 HEADER
-***********/
+********/
 header#site_header {
   background-color: #ff8523;
   padding: 2% 3% 4% 3%;
@@ -45,8 +45,6 @@ nav.main_navigation a {
   color: #fff;
   border-radius: 5px;
 }
-
-
 
 
 
@@ -68,7 +66,7 @@ ul {
 }
 
 /* The intro paragraph */
-section:first-child {
+section {
   border-bottom: 2px #ddd solid;
 }
 
@@ -76,25 +74,8 @@ form {
   background: #ddd;
 }
 
-/* First Last name of form */
-div[class="name"] {
-  background: #ff8523;
-}
 
-#submit_button {
-  color: #fff;
-  background: #1fabe5;
-  text-transform: uppercase;
-  border: none;
-  border-radius: 5px;
-}
-
-textarea {
-  border: #1fabe5;
-}
-/*********
-TABLE
-*********/
+/*****TABLE*****/
 thead {
   background-color: #1fabe5;
   color: #fff;
@@ -104,6 +85,7 @@ table, th, td {
   border: 2px solid #1fabe5;
   border-collapse: collapse;
   max-width: 100%;
+  margin-bottom: 25px;
 }
 
 thead > tr > td {
@@ -122,4 +104,53 @@ td > img {
   display: block;
   margin-top: 5px;
   margin-bottom: 5px;
+}
+
+
+/***********
+FORM STUFF
+***********/
+form {
+  padding: 3%;
+  margin-bottom: 25px;
+}
+
+form > div {
+  padding: 1% 0;
+  margin: 10px 0;
+}
+/* First Last name of form */
+div[class="name"] {
+  background: #ff8523;
+  padding: 2%;
+  border-radius: 5px;
+  color: #fff;
+}
+
+div[class="name"] label:nth-last-child(2) {
+  margin-left: 15px;
+}
+
+input[type="text"] {
+  padding: 5px;
+}
+
+label {
+  font-weight: bold;
+}
+
+textarea {
+  border: solid 1px #1fabe5;
+  width: 100%;
+  border-radius: 5px;
+}
+
+#submit_button {
+  color: #fff;
+  background: #1fabe5;
+  text-transform: uppercase;
+  border: none;
+  border-radius: 5px;
+  padding: 15px;
+  font-weight: bold;
 }
