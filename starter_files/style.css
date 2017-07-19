@@ -23,6 +23,10 @@ body {
   line-height: 1.6;
 }
 
+
+/***********
+HEADER
+***********/
 header#site_header {
   background-color: #ff8523;
   padding: 5%;
@@ -37,15 +41,27 @@ nav.main_navigation a {
   border-radius: 5px;
 }
 
-h2, h3 {
-  color: #1fabe5;
-}
 
+
+
+
+/**********
+PAGE CONTENT
+**********/
 #page_content {
   background: #fff;
   padding: 5%;
 }
 
+h2, h3 {
+  color: #1fabe5;
+}
+
+ul {
+  padding-left: 25px;
+}
+
+/* The intro paragraph */
 section:first-child {
   border-bottom: 2px #ddd solid;
 }
