@@ -12,3 +12,20 @@ colors:
     blue - #1fabe5
     dark blue - #046c97
 */
+
+
+
+
+
+/*****
+BODY
+*****/
+body {
+  background: url('img/bg.jpg');
+  font-family: Helvetica, Arial, sans-serif;
+  line-height: 1.6;
+}
+
+.main {
+  border: 2px orange solid;
+}
