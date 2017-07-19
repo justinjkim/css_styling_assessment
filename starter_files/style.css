@@ -46,3 +46,23 @@ h2 {
 #page_content {
   background: #fff;
 }
+
+section:first-child {
+  border-bottom: 2px #ddd solid;
+}
+
+
+
+
+/*********
+TABLE
+*********/
+thead {
+  background-color: #1fabe5;
+  color: #fff;
+}
+
+table, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+}
