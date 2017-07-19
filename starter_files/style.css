@@ -25,7 +25,13 @@ body {
 
 body > div {
   border: #ffaa88 solid 2px;
-  margin: 1% 5%;
+  margin-top: 2%;
+  margin-bottom: 5%;
+  margin-left: auto;
+  margin-right: auto;
+  width: 80%;
+  box-shadow: 5px 5px 15px #333;
+  border-radius: 5px;
 }
 
 
@@ -40,7 +46,7 @@ header#site_header {
 nav.main_navigation a {
   display: inline-block;
   text-decoration: none;
-  padding: 10px 15px;
+  padding: 5px 30px;
   border: 2px #fff solid;
   color: #fff;
   border-radius: 5px;
@@ -67,7 +73,7 @@ ul {
 
 /* The intro paragraph */
 section {
-  border-bottom: 2px #ddd solid;
+  border-bottom: 5px #ddd solid;
 }
 
 form {
@@ -82,14 +88,13 @@ thead {
 }
 
 table, th, td {
-  border: 2px solid #1fabe5;
+  border: 1px solid #046c97;
   border-collapse: collapse;
-  max-width: 100%;
   margin-bottom: 25px;
 }
 
-thead > tr > td {
-  border: 2px solid #ddd;
+table {
+    max-width: 100%;
 }
 
 td {
@@ -99,11 +104,9 @@ td {
 td > img {
   margin-left: auto;
   margin-right: auto;
-  max-width: 75%;
-  max-height: 75%;
+  max-width: 60%;
+  max-height: 60%;
   display: block;
-  margin-top: 5px;
-  margin-bottom: 5px;
 }
 
 
