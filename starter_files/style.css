@@ -26,6 +26,23 @@ body {
   line-height: 1.6;
 }
 
-.main {
-  border: 2px orange solid;
+header#site_header {
+  background-color: #ff8523;
+}
+
+nav.main_navigation a {
+  display: inline-block;
+  text-decoration: none;
+  padding: 10px 15px;
+  border: 2px #fff solid;
+  color: #fff;
+  border-radius: 5px;
+}
+
+h2 {
+  color: #1fabe5;
+}
+
+#page_content {
+  background: #fff;
 }
