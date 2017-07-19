@@ -25,6 +25,7 @@ body {
 
 header#site_header {
   background-color: #ff8523;
+  padding: 5%;
 }
 
 nav.main_navigation a {
@@ -36,12 +37,13 @@ nav.main_navigation a {
   border-radius: 5px;
 }
 
-h2 {
+h2, h3 {
   color: #1fabe5;
 }
 
 #page_content {
   background: #fff;
+  padding: 5%;
 }
 
 section:first-child {
@@ -61,6 +63,8 @@ div[class="name"] {
   color: #fff;
   background: #1fabe5;
   text-transform: uppercase;
+  border: none;
+  border-radius: 5px;
 }
 
 textarea {
