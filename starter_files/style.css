@@ -14,9 +14,6 @@ colors:
 */
 
 
-
-
-
 /*****
 BODY
 *****/
@@ -52,8 +49,23 @@ section:first-child {
 }
 
 
+form {
+  background: #ddd;
+}
 
+div[class="name"] {
+  background: #ff8523;
+}
 
+#submit_button {
+  color: #fff;
+  background: #1fabe5;
+  text-transform: uppercase;
+}
+
+textarea {
+  border: #1fabe5;
+}
 /*********
 TABLE
 *********/
@@ -63,6 +75,6 @@ thead {
 }
 
 table, th, td {
-    border: 1px solid black;
+    border: 2px solid #1fabe5;
     border-collapse: collapse;
 }
